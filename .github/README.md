@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-cost-and-usage-report-service`](https://www.npmjs.com/package/@aws-sdk/client-cost-and-usage-report-service/v/3.734.0).
+[`@aws-sdk/client-cost-and-usage-report-service`](https://www.npmjs.com/package/@aws-sdk/client-cost-and-usage-report-service/v/3.738.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-and-usage-report-service@3.734.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-and-usage-report-service@3.738.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-1Oj5MPiLofh/Ob85fU7h/qoskAw4tSaysA95sj/WDQda5mKwbD3F/2s47BaIy+oW
+sha384-elY4PhS1qyRyvFks8VUI8EeOW0dRj1qc/PUd19JpsrTfjDP94OvXSlsEkgdNmUs+
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-cost-and-usage-report-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-and-usage-report-service@3.734.0/index.min.mjs"
+            "@aws-sdk/client-cost-and-usage-report-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-and-usage-report-service@3.738.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-and-usage-report-service@3.734.0/index.min.mjs": "sha384-1Oj5MPiLofh/Ob85fU7h/qoskAw4tSaysA95sj/WDQda5mKwbD3F/2s47BaIy+oW"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-and-usage-report-service@3.738.0/index.min.mjs": "sha384-elY4PhS1qyRyvFks8VUI8EeOW0dRj1qc/PUd19JpsrTfjDP94OvXSlsEkgdNmUs+"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-cost-and-usage-report-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-and-usage-report-service@3.734.0/index.min.mjs"
+                        "@aws-sdk/client-cost-and-usage-report-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-and-usage-report-service@3.738.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-and-usage-report-service@3.734.0/index.min.mjs": "sha384-1Oj5MPiLofh/Ob85fU7h/qoskAw4tSaysA95sj/WDQda5mKwbD3F/2s47BaIy+oW"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-and-usage-report-service@3.738.0/index.min.mjs": "sha384-elY4PhS1qyRyvFks8VUI8EeOW0dRj1qc/PUd19JpsrTfjDP94OvXSlsEkgdNmUs+"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.734.0`)
+* Always pin to a specific version (`@3.738.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-cost-and-usage-report-service/blob/refs/tags/3.734.0/LICENSE
+https://github.com/cloud-sdk-builds/client-cost-and-usage-report-service/blob/refs/tags/3.738.0/LICENSE
 ```
 
 ---
